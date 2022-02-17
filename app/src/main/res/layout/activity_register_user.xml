@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+
+    <TextView
+        android:id="@+id/textView_create"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+
+        android:text="@string/create"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view"
+        style="@style/Divider"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="160dp"
+        android:backgroundTint="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_create"
+        app:layout_constraintVertical_bias="0.016"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_round"
+        android:backgroundTint="#EDEDED"
+        android:drawableRight="@drawable/user_vector_asset"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_create"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edit_round"
+        android:backgroundTint="#EDEDED"
+        android:drawableRight="@drawable/email_vector_asset"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fullName" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edit_round"
+        android:backgroundTint="#EDEDED"
+        android:drawableRight="@drawable/password_vector_asset"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+    <RadioGroup
+        android:id="@+id/groupRadio"
+        android:layout_width="143dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="52dp"
+
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/donorCheck"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            android:buttonTint="@color/black"
+            android:drawablePadding="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="DONOR"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/ngoCheck"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:buttonTint="@color/black"
+            android:drawablePadding="10dp"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="NGO" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/registerUser"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="64dp"
+        android:background="@drawable/custom_button"
+        android:text="Register User"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/groupRadio"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView_existing"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+
+        android:layout_marginLeft="200dp"
+        android:fontFamily="serif"
+        android:text="Existing user ?"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerUser"
+        app:layout_constraintVertical_bias="0.339" />
+
+    <TextView
+        android:id="@+id/back_to_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Sign In"
+        android:textColor="#0091EA"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView_existing"
+        app:layout_constraintTop_toBottomOf="@+id/registerUser"
+        app:layout_constraintVertical_bias="0.339" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

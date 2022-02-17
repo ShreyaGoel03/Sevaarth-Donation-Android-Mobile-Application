@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate the Donor!"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+
+    <Button
+        android:id="@+id/submitrating"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_button"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+
+
+</LinearLayout>

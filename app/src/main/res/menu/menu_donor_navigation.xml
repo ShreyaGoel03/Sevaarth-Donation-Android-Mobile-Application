@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:iconTint="#0091EA" android:id="@+id/hostevents" android:title="Host Event" android:icon="@drawable/ic_event"/>
+    <item android:iconTint="#0091EA" android:id="@+id/showevents" android:title="Show Events" android:icon="@drawable/ic_show_events"/>
+    <item android:iconTint="#0091EA" android:id="@+id/about" android:title="About" android:icon="@drawable/ic_about"/>
+    <item android:iconTint="#0091EA" android:id="@+id/faq" android:title="FAQs" android:icon="@drawable/ic_faq"/>
+    <item android:iconTint="#0091EA" android:id="@+id/signout" android:title="Logout" android:icon="@drawable/ic_logout"/>
+</menu>

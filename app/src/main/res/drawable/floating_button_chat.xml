@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple xmlns:tools="http://schemas.android.com/tools"
+    android:color="?attr/colorControlHighlight"
+xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:targetApi="lollipop">
+<item>
+    <layer-list>
+        <item>
+            <shape android:shape="oval">
+                <gradient
+                    android:type="linear"
+                    android:angle="0"
+                    android:startColor="#2962FF"
+                    android:endColor="#00B8D4" />
+            </shape>
+        </item>
+        <item android:drawable="@drawable/ic_baseline_chat_24" android:gravity="center"  />
+    </layer-list>
+</item>
+</ripple>

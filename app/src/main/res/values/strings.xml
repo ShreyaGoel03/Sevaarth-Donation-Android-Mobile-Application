@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Sevaarth</string>
+    <string name="dashboard_name">Welcome To Organisations Page</string>
+    <string name="profile_name">Profile</string>
+    <string name="details_name">Organization Details</string>
+    <string name="back">Back</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="call">Call</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string-array name="bloodType">
+        <item>O</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="bloodQuantity">
+        <item>1 pint</item>
+        <item>2 pint</item>
+    </string-array>
+    <string-array name="donationType">
+        <item>Food</item>
+        <item>Clothes</item>
+        <item>Books</item>
+        <item>Medicines</item>
+        <item>Money</item>
+        <item>Blood</item>
+        <item>Multiple</item>
+    </string-array>
+
+    <string name="Q1">What do you do with Organization\'s documents ?</string>
+    <string name="Q2">Why should we trust your online donation ?</string>
+    <string name="Q3">How can I make donations to Organizations ?</string>
+    <string name="Q4">How to check NGO\'s details ? </string>
+    <string name="Q5">How do I put an event for my cause ?</string>
+    <string name="Q6">What things can we donate ?</string>
+    <string name="Q7">How should NGO\'s ask for donations? </string>
+    <string name="Q8">Why is it showing 0 in the verified option ?</string>
+    <string name="Q9">How will users get to know that NGOs are verified, or you are displaying only verified NGOs ?</string>
+    <string name="Q10">What actions will be taken for Fake Organizations or users ?</string>
+    <string name="Q11">Does your app contain a feature to add events to the calendar ?</string>
+    <string name="Q12">What areas do you serve ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create">Create an Account</string>
+    <string name="browse_upload_documents"><![CDATA[Browse & Upload Documents]]></string>
+
+    <string-array name="Q1">
+        <item>Transparency is at the top of mind for donors. It is crucial to verify organizations, are they existing or not to prevets charity from misuse and ensure that no one has access to data except us.</item>
+    </string-array>
+
+    <string-array name="Q2">
+        <item>We can assure you that we are not taking or misusing any bit of it. It\'s the primary purpose of application to reduce the gap between donors and organizations by reducing the involvement of any 3rd party. Organizations will communicate you to accept donations, and you can directly give them. We are just medium to provide you this opportunity.</item>
+    </string-array>
+
+    <string-array name="Q3">
+        <item>To make Donations, you have to log in as a donor, select checkboxes whatever you want to donate, click on the organization button to check the list of available NGOs according to requirement, and click on any NGO. You will get an option to donate.</item>
+    </string-array>
+
+    <string-array name="Q4">
+        <item>After clicking on NGO\'s name, you will get an option to show details on the next page.</item>
+    </string-array>
+
+    <string-array name="Q5">
+        <item>Just log in as a donor or Organization, and there you will find a Button for event creation. From there, you can host an event.</item>
+    </string-array>
+
+    <string-array name="Q6">
+        <item>We are not restricting donations. Majorly we have given six options Food, Book, Clothes, Blood, Medicine, Money, but One can donate anything they want.</item>
+    </string-array>
+
+    <string-array name="Q7">
+        <item>We are providing a list of previous and current donors with their details. From there, you can ask them for donations.</item>
+    </string-array>
+
+    <string-array name="Q10">
+        <item>Firstly, we are verifying at our end. If any user or Organization is found guilty, we will delete those accounts from our application. The necessary action will be taken if required.</item>
+    </string-array>
+
+    <string-array name="Q11">
+        <item>Yes, it is. You can add events to the calendar after clicking host events.</item>
+    </string-array>
+
+    <string-array name="Q12">
+        <item>We are not restricting any one donors can check NGOs location, and if they found it suitable, they can donate.</item>
+    </string-array>
+
+    <string-array name="state_names">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli and Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Ladakh</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+
+    </string-array>
+
+    <string-array name = "sort_options">
+        <item>Sort by </item>
+        <item>Date added (oldest)</item>
+        <item>Date added (newest)</item>
+    </string-array>
+
+</resources>

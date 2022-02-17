@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h600dp-port-v13/values-h600dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/home/shreya1/.gradle/caches/transforms-2/files-2.1/448c7975c43a7e5ef099f4ae155bc6b2/material-1.3.0/res/values-h600dp-port-v13/values-h600dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        }
+    ]
+}

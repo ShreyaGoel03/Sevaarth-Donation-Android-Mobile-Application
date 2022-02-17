@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.sevaarth.DetailsActivity"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/city_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/address_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+
+            android:paddingRight="10dp"
+            android:inputType="textPersonName"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address_view" />
+
+        <TextView
+            android:id="@+id/details_header"
+            android:layout_width="280dp"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:text="@string/details_name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046" />
+
+        <View
+            android:id="@+id/view1"
+            style="@style/Divider"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="100dp"
+            android:backgroundTint="@color/black"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.092"
+            tools:ignore="MissingConstraints"
+            />
+
+
+        <TextView
+            android:id="@+id/head_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center_vertical"
+            android:inputType="text|textMultiLine"
+            android:text="Head of Organization"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/head_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/user_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Head"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toEndOf="@+id/head_name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/area_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Area"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/head_name" />
+
+        <EditText
+            android:id="@+id/area_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/area2_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="In Acres"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+
+            android:paddingRight="10dp"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/area_name"
+            app:layout_constraintTop_toBottomOf="@+id/head_view" />
+
+        <TextView
+            android:id="@+id/address_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Locality"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/area_name" />
+
+        <EditText
+            android:id="@+id/address_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/address_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Address"
+            android:inputType="text|textMultiLine"
+            android:textColorHighlight="@color/black"
+            android:paddingLeft="10dp"
+
+            android:paddingRight="10dp"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/address_name"
+            app:layout_constraintTop_toBottomOf="@+id/area_view" />
+
+        <TextView
+            android:id="@+id/strength_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Strength"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desc_name" />
+
+        <EditText
+            android:id="@+id/strength_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/strength_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:hint="No. of People in Org."
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/strength_name"
+            app:layout_constraintTop_toBottomOf="@+id/desc_view"
+            android:layout_marginLeft="8dp" />
+
+        <TextView
+            android:id="@+id/items_name"
+            android:layout_width="172dp"
+            android:layout_height="28dp"
+            android:gravity="center_vertical"
+            android:text="Items of Interest"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/view2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/state_spinner"
+            app:layout_constraintVertical_bias="0.853" />
+
+        <TextView
+            android:id="@+id/items_name2"
+            android:layout_width="172dp"
+            android:layout_height="28dp"
+            android:gravity="center_vertical"
+            android:text="Other Details"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/view3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/medicine_cb"
+            app:layout_constraintVertical_bias="0.808" />
+
+        <View
+            android:id="@+id/view2"
+            style="@style/Divider"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="160dp"
+            android:backgroundTint="@color/black"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.481"
+            tools:ignore="MissingConstraints" />
+
+        <View
+            android:id="@+id/view3"
+            style="@style/Divider"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="160dp"
+            android:backgroundTint="@color/black"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.683"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/food_cb"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:text="Food"
+            android:buttonTint="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <CheckBox
+            android:id="@+id/clothes_cb"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:text="Clothes"
+            app:layout_constraintStart_toEndOf="@+id/food_cb"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <CheckBox
+            android:id="@+id/books_cb"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:buttonTint="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Books"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toEndOf="@+id/clothes_cb"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <CheckBox
+            android:id="@+id/money_cb"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:text="Money"
+            android:buttonTint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toEndOf="@+id/blood_cb"
+            app:layout_constraintTop_toBottomOf="@+id/books_cb" />
+
+        <CheckBox
+            android:id="@+id/medicine_cb"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:text="Medicines"
+            android:buttonTint="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/food_cb" />
+
+        <CheckBox
+            android:id="@+id/blood_cb"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:text="Blood"
+            android:buttonTint="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/medicine_cb"
+            app:layout_constraintTop_toBottomOf="@+id/clothes_cb" />
+
+        <TextView
+            android:id="@+id/desc_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phone_name" />
+
+        <EditText
+            android:id="@+id/desc_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/description_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toEndOf="@+id/desc_name"
+            app:layout_constraintTop_toBottomOf="@+id/phone_view" />
+
+        <TextView
+            android:id="@+id/phone_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:text="Contact"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <EditText
+            android:id="@+id/phone_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/contactno_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toEndOf="@+id/phone_name"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="880dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/custom_button"
+            android:text="Save"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.852"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/photo_btn"
+            android:layout_width="180dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="880dp"
+            android:background="@drawable/custom_button"
+            android:drawableRight="@drawable/camera_vector_asset"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="40dp"
+            android:paddingRight="10dp"
+            android:text="Upload Photos"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.126"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.58" />
+
+        <TextView
+            android:id="@+id/city_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="City"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address_name" />
+
+        <TextView
+            android:id="@+id/state_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="State"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/items_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/city_name"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Spinner
+            android:id="@+id/state_spinner"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/city_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

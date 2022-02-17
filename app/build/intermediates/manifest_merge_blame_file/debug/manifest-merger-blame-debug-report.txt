@@ -1,0 +1,374 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sevaarth"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:6:5-80
+12-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+13-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:7:5-80
+13-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:8:5-79
+14-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:9:5-69
+15-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:9:22-66
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:11:5-65
+17-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:11:22-62
+18    <uses-permission android:name="android.permission.READ_CALENDAR" />
+18-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:12:5-72
+18-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:12:22-69
+19    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+19-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:13:5-73
+19-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:13:22-70
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:14:5-80
+20-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.SEND_SMS" />
+21-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:15:5-67
+21-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:15:22-64
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.android.installreferrer:installreferrer:1.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/19ac7976aff8c7c59bae807e77fd702e/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+22-->[com.android.installreferrer:installreferrer:1.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/19ac7976aff8c7c59bae807e77fd702e/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+23
+24    <application
+24-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:18:5-94:19
+25        android:allowBackup="true"
+25-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:19:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.3.1] /home/shreya1/.gradle/caches/transforms-2/files-2.1/a62804a47368eb7ab7c7a621c89cad6f/core-1.3.1/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:20:9-43
+29        android:label="@string/app_name"
+29-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:21:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:22:9-54
+31        android:supportsRtl="true"
+31-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:23:9-35
+32        android:theme="@style/Theme.Sevaarth" >
+32-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:24:9-46
+33        <activity android:name="com.example.sevaarth.AboutUs" />
+33-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:25:9-54
+33-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:25:19-42
+34        <activity android:name="com.example.sevaarth.FAQs" />
+34-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:26:9-42
+34-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:26:19-39
+35        <activity android:name="com.example.sevaarth.ShowHostEvents" />
+35-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:27:9-52
+35-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:27:19-49
+36        <activity
+36-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:28:9-30:52
+37            android:name="com.example.sevaarth.CallActivity"
+37-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:29:13-41
+38            android:screenOrientation="portrait" />
+38-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:30:13-49
+39        <activity
+39-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:31:9-33:52
+40            android:name="com.example.sevaarth.Dashboard"
+40-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:32:13-38
+41            android:screenOrientation="portrait" />
+41-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:33:13-49
+42        <activity
+42-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:34:9-36:52
+43            android:name="com.example.sevaarth.DisplayEvents"
+43-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:35:13-42
+44            android:screenOrientation="portrait" />
+44-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:36:13-49
+45        <activity
+45-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:37:9-39:52
+46            android:name="com.example.sevaarth.DisplayDetails"
+46-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:38:13-43
+47            android:screenOrientation="portrait" />
+47-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:39:13-49
+48        <activity
+48-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:40:9-42:52
+49            android:name="com.example.sevaarth.DonateDetails2"
+49-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:41:13-43
+50            android:screenOrientation="portrait" />
+50-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:42:13-49
+51        <activity
+51-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:43:9-45:52
+52            android:name="com.example.sevaarth.DonorActivity2"
+52-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:44:13-43
+53            android:screenOrientation="portrait" />
+53-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:45:13-49
+54        <activity
+54-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:46:9-48:52
+55            android:name="com.example.sevaarth.Organizations"
+55-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:47:13-42
+56            android:screenOrientation="portrait" />
+56-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:48:13-49
+57        <activity
+57-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:49:9-51:52
+58            android:name="com.example.sevaarth.Welcome"
+58-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:50:13-36
+59            android:screenOrientation="portrait" />
+59-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:51:13-49
+60        <activity
+60-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:52:9-54:52
+61            android:name="com.example.sevaarth.Donor"
+61-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:53:13-34
+62            android:screenOrientation="portrait" />
+62-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:54:13-49
+63        <activity
+63-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:55:9-57:52
+64            android:name="com.example.sevaarth.LoginActivity"
+64-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:56:13-42
+65            android:screenOrientation="portrait" />
+65-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:57:13-49
+66        <activity
+66-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:58:9-60:52
+67            android:name="com.example.sevaarth.ForgotPassword"
+67-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:59:13-43
+68            android:screenOrientation="portrait" />
+68-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:60:13-49
+69        <activity
+69-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:61:9-63:52
+70            android:name="com.example.sevaarth.RegisterUser"
+70-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:62:13-41
+71            android:screenOrientation="portrait" />
+71-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:63:13-49
+72        <activity
+72-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:64:9-72:20
+73            android:name="com.example.sevaarth.MainActivity"
+73-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:65:13-41
+74            android:screenOrientation="portrait" >
+74-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:66:13-49
+75            <intent-filter>
+75-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:67:13-71:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:68:17-69
+76-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:68:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:70:17-77
+78-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:70:27-74
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:73:9-75:52
+82            android:name="com.example.sevaarth.DashboardOrgActivity"
+82-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:74:13-49
+83            android:screenOrientation="portrait" />
+83-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:75:13-49
+84        <activity
+84-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:76:9-78:52
+85            android:name="com.example.sevaarth.DetailsActivity"
+85-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:77:13-44
+86            android:screenOrientation="portrait" />
+86-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:78:13-49
+87        <activity
+87-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:79:9-81:52
+88            android:name="com.example.sevaarth.ProfileActivity"
+88-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:80:13-44
+89            android:screenOrientation="portrait" />
+89-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:81:13-49
+90        <activity
+90-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:82:9-84:52
+91            android:name="com.example.sevaarth.UploadActivity"
+91-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:83:13-43
+92            android:screenOrientation="portrait" />
+92-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:84:13-49
+93        <activity
+93-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:85:9-87:52
+94            android:name="com.example.sevaarth.DonationActivity"
+94-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:86:13-45
+95            android:screenOrientation="portrait" />
+95-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:87:13-49
+96        <activity
+96-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:88:9-90:51
+97            android:name="com.example.sevaarth.DisplayOrgs"
+97-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:89:13-40
+98            android:screenOrientation="portrait" />
+98-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:90:13-49
+99        <activity
+99-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:91:9-93:51
+100            android:name="com.example.sevaarth.Donation_Details_Org"
+100-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:92:13-49
+101            android:screenOrientation="portrait" />
+101-->/home/shreya1/AndroidStudioProjects/Final_MC/MC_Project/app/src/main/AndroidManifest.xml:93:13-49
+102
+103        <service
+103-->[com.google.firebase:firebase-database:19.7.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/b65de98a6a75747d3905ae8d0be751fa/jetified-firebase-database-19.7.0/AndroidManifest.xml:29:9-35:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[com.google.firebase:firebase-database:19.7.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/b65de98a6a75747d3905ae8d0be751fa/jetified-firebase-database-19.7.0/AndroidManifest.xml:30:13-84
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-database:19.7.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/b65de98a6a75747d3905ae8d0be751fa/jetified-firebase-database-19.7.0/AndroidManifest.xml:31:13-37
+107            <meta-data
+107-->[com.google.firebase:firebase-database:19.7.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/b65de98a6a75747d3905ae8d0be751fa/jetified-firebase-database-19.7.0/AndroidManifest.xml:32:13-34:85
+108                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+108-->[com.google.firebase:firebase-database:19.7.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/b65de98a6a75747d3905ae8d0be751fa/jetified-firebase-database-19.7.0/AndroidManifest.xml:33:17-109
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-database:19.7.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/b65de98a6a75747d3905ae8d0be751fa/jetified-firebase-database-19.7.0/AndroidManifest.xml:34:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:77:13-79:85
+111                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+111-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:78:17-109
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:79:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-storage:19.2.1] /home/shreya1/.gradle/caches/transforms-2/files-2.1/17994f790f1ceb6e42ee4d21f7940c32/jetified-firebase-storage-19.2.1/AndroidManifest.xml:33:13-35:85
+114                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+114-->[com.google.firebase:firebase-storage:19.2.1] /home/shreya1/.gradle/caches/transforms-2/files-2.1/17994f790f1ceb6e42ee4d21f7940c32/jetified-firebase-storage-19.2.1/AndroidManifest.xml:34:17-107
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-storage:19.2.1] /home/shreya1/.gradle/caches/transforms-2/files-2.1/17994f790f1ceb6e42ee4d21f7940c32/jetified-firebase-storage-19.2.1/AndroidManifest.xml:35:17-82
+116            <!--
+117                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+118                clients to use it as well, by defining this registrar in their own core/common library.
+119            -->
+120            <meta-data
+120-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+121                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+121-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+123        </service>
+124
+125        <activity
+125-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:27:9-44:20
+126            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+126-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:28:13-80
+127            android:excludeFromRecents="true"
+127-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:29:13-46
+128            android:exported="true"
+128-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:30:13-36
+129            android:launchMode="singleTask"
+129-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:31:13-44
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+130-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:32:13-72
+131            <intent-filter>
+131-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:33:13-43:29
+132                <action android:name="android.intent.action.VIEW" />
+132-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:17-69
+132-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:25-66
+133
+134                <category android:name="android.intent.category.DEFAULT" />
+134-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:17-76
+134-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:27-73
+135                <category android:name="android.intent.category.BROWSABLE" />
+135-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:17-78
+135-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:27-75
+136
+137                <data
+137-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:39:17-42:51
+138                    android:host="firebase.auth"
+138-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:40:21-49
+139                    android:path="/"
+139-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:41:21-37
+140                    android:scheme="genericidp" />
+140-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:42:21-48
+141            </intent-filter>
+142        </activity>
+143        <activity
+143-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:45:9-62:20
+144            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+144-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:46:13-79
+145            android:excludeFromRecents="true"
+145-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:47:13-46
+146            android:exported="true"
+146-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:48:13-36
+147            android:launchMode="singleTask"
+147-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:49:13-44
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+148-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:50:13-72
+149            <intent-filter>
+149-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:51:13-61:29
+150                <action android:name="android.intent.action.VIEW" />
+150-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:17-69
+150-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:25-66
+151
+152                <category android:name="android.intent.category.DEFAULT" />
+152-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:17-76
+152-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:27-73
+153                <category android:name="android.intent.category.BROWSABLE" />
+153-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:17-78
+153-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:27-75
+154
+155                <data
+155-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:39:17-42:51
+156                    android:host="firebase.auth"
+156-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:40:21-49
+157                    android:path="/"
+157-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:41:21-37
+158                    android:scheme="recaptcha" />
+158-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:42:21-48
+159            </intent-filter>
+160        </activity>
+161
+162        <service
+162-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:64:9-73:19
+163            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+163-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:65:13-101
+164            android:enabled="true"
+164-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:66:13-35
+165            android:exported="false" >
+165-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:67:13-37
+166            <intent-filter>
+166-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:68:13-72:29
+167                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+167-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:69:17-89
+167-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:69:25-86
+168
+169                <category android:name="android.intent.category.DEFAULT" />
+169-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:17-76
+169-->[com.google.firebase:firebase-auth:20.0.3] /home/shreya1/.gradle/caches/transforms-2/files-2.1/cfccb966fc4ad09de1e1b4f4f5aedbb1/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:27-73
+170            </intent-filter>
+171        </service>
+172
+173        <activity
+173-->[com.karumi:dexter:6.0.2] /home/shreya1/.gradle/caches/transforms-2/files-2.1/59617aa189065cdd0b19cfdd417a38d6/jetified-dexter-6.0.2/AndroidManifest.xml:27:9-29:72
+174            android:name="com.karumi.dexter.DexterActivity"
+174-->[com.karumi:dexter:6.0.2] /home/shreya1/.gradle/caches/transforms-2/files-2.1/59617aa189065cdd0b19cfdd417a38d6/jetified-dexter-6.0.2/AndroidManifest.xml:28:13-60
+175            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+175-->[com.karumi:dexter:6.0.2] /home/shreya1/.gradle/caches/transforms-2/files-2.1/59617aa189065cdd0b19cfdd417a38d6/jetified-dexter-6.0.2/AndroidManifest.xml:29:13-69
+176
+177        <provider
+177-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+178            android:name="com.google.firebase.provider.FirebaseInitProvider"
+178-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+179            android:authorities="com.example.sevaarth.firebaseinitprovider"
+179-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+180            android:directBootAware="true"
+180-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+181            android:exported="false"
+181-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+182            android:initOrder="100" />
+182-->[com.google.firebase:firebase-common:19.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+183
+184        <activity
+184-->[com.google.android.gms:play-services-base:17.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/009215a5d179fdb8a20a41c301a29f78/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+185            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+185-->[com.google.android.gms:play-services-base:17.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/009215a5d179fdb8a20a41c301a29f78/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+186            android:exported="false"
+186-->[com.google.android.gms:play-services-base:17.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/009215a5d179fdb8a20a41c301a29f78/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+187            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+187-->[com.google.android.gms:play-services-base:17.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/009215a5d179fdb8a20a41c301a29f78/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+188
+189        <meta-data
+189-->[com.google.android.gms:play-services-basement:17.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/dc79d5df616532adaba6811b28047a27/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+190            android:name="com.google.android.gms.version"
+190-->[com.google.android.gms:play-services-basement:17.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/dc79d5df616532adaba6811b28047a27/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+191            android:value="@integer/google_play_services_version" />
+191-->[com.google.android.gms:play-services-basement:17.5.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/dc79d5df616532adaba6811b28047a27/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+192    </application>
+193
+194</manifest>

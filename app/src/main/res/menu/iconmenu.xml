@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+
+    <item android:id="@+id/menu_chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="Chat"/>
+
+<!--    <item android:id="@+id/menu_notifi"-->
+<!--        android:icon="@drawable/ic_baseline_notifications_24"-->
+<!--        android:title="Notifications"/>-->
+
+<!--    <item android:id="@+id/menu_refer"-->
+<!--        android:icon="@drawable/ic_baseline_mobile_screen_share_24"-->
+<!--        android:title="Refer and Earn"/>-->
+
+    <item android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+
+    <item android:id="@+id/menu_faq"
+        android:icon="@drawable/ic_baseline_question_answer_24"
+        android:title="FAQ's"/>
+
+    <item android:id="@+id/menu_about"
+        android:icon="@drawable/ic_baseline_pan_tool_24"
+        android:title="About"/>
+
+    <item android:id="@+id/menu_exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Exit"/>
+
+
+</menu>
